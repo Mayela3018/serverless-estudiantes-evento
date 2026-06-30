@@ -1,0 +1,13 @@
+{
+  "name": "serverless-estudiantes-evento",
+  "version": "1.0.0",
+  "description": "API REST serverless con AWS Lambda, API Gateway y DynamoDB para el registro de estudiantes del Cloud Innovation Day",
+  "main": "index.mjs",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0"
+  },
+  "author": "Mayela Ticona",
+  "license": "MIT"
+}
